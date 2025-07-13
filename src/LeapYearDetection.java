@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class LeapYearDetection {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
+        System.out.print("Enter the year: ");
         Scanner sc = new Scanner(System.in);
         int year = sc.nextInt();
         if (isLeapYear(year)) {
